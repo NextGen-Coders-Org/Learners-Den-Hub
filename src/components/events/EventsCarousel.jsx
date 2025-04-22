@@ -13,6 +13,8 @@ import { motion } from "framer-motion"
 const EventsCarousel = ({ events }) => {
   const [activeIndex, setActiveIndex] = useState(0)
 
+  console.log("event",events)
+
   useEffect(() => {
     const interval = setInterval(() => {
       setActiveIndex((current) => 
@@ -54,7 +56,7 @@ const EventsCarousel = ({ events }) => {
                 transition={{ duration: 0.3 }}
                 className="h-full"
               >
-                <EventCard {...event} />
+                <EventCard event={event} />
               </motion.div>
             </CarouselItem>
           ))}

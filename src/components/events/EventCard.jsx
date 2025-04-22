@@ -20,6 +20,8 @@ const EventCard = ({ event }) => {
     tokenCost,
   } = event;
 
+  console.log("event",event)
+
   return (
     <div className="bg-card rounded-xl overflow-hidden border border-border h-full flex flex-col group">
       <div className="relative">

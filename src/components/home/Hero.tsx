@@ -50,9 +50,9 @@ const Hero = () => {
               <span className="text-den-purple font-bold relative">
                 {textVariants[activeIcon]}
                 <span className="absolute -bottom-1 left-0 w-full h-1 bg-den-purple/30 rounded"></span>
-              </span>
+              </span>-
             </div>
-            <span className="block mt-2">Manav Den Community</span>
+            <span className="block mt-2">Learners Den Community</span>
           </h1>
           
           <p className="text-lg md:text-xl text-den-gray mb-8">
